@@ -4,7 +4,7 @@
   "description": "CAH + Slack + BotKit",
   "main": "index.js",
   "scripts": {
-    "start": "token=SLACK_API_TOKEN node node_modules/bokit/bot.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
