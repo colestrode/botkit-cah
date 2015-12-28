@@ -1,1 +1,1 @@
-worker: npm start
+slack: npm start
