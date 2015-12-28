@@ -7,10 +7,10 @@ var controller = Botkit.slackbot({
 // connect the bot to a stream of messages
 controller.spawn({
   token: process.env.SLACK_API_TOKEN
-}).startRTM(function(err) {
-  if (!err) {
-    console.log('open for business');
-  }
+}).startRTM();
+
+controller.on('rtm_opened', function() {
+  console.log('open for business');
 });
 
 // give the bot something to listen for.
