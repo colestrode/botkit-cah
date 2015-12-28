@@ -1,0 +1,30 @@
+{
+  "name": "botkit-cah",
+  "version": "0.0.1",
+  "description": "CAH + Slack + BotKit",
+  "main": "index.js",
+  "scripts": {
+    "start": "token=SLACK_API_TOKEN node node_modules/bokit/bot.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colestrode/botkit-cah.git"
+  },
+  "keywords": [
+    "CAH",
+    "Slack",
+    "BotKit"
+  ],
+  "author": "Cole Furfaro-Strode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colestrode/botkit-cah/issues"
+  },
+  "homepage": "https://github.com/colestrode/botkit-cah#readme",
+  "dependencies": {
+    "botkit": "0.0.4",
+    "lodash": "^3.10.1",
+    "require-all": "^2.0.0"
+  }
+}
